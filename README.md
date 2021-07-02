@@ -33,8 +33,10 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 ## Conventional Offline-Reinforcement-Learning
 
 - [Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2006.04779.pdf) [[code]](https://github.com/aviralkumar2907/CQL)   
+
   **CQL**：提出在offline-rl中Q learning过程中加入正则项来缓解over-estimate的问题。通过正则项可以学习到真实Q的lower bound，这样扩大估计值和真实值Q的距离，缓解offline RL中存在的distribution shift问题
 - [D4RL: Datasets for Deep Data-Driven Reinforcement Learning](https://arxiv.org/pdf/2004.07219.pdf)) [[code]](https://github.com/rail-berkeley/d4rl)  
 - [Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction](https://arxiv.org/pdf/1906.00949.pdf) [[code]](https://github.com/aviralkumar2907/BEAR)  
+
   **BEAR**：为环境offline RL设定中从静态数据集中学习存在的数据偏移问题，提出在Bellman方程迭代更新Q过程中，由于action distribution shift导致的累积误差越来越大可能会导致最终不收敛的现象。文章提出了如何限制动作的选择来减轻此问题，提出算法bootstrapping error accumulation reduction (BEAR)，借助support-set matching来避免此问题
 
