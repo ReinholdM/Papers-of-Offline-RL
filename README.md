@@ -36,6 +36,7 @@ Anyone is welcomed to submit a pull request for the related and unlisted papers 
 
   **CQL**：提出在offline-rl中Q learning过程中加入正则项来缓解over-estimate的问题。通过正则项可以学习到真实Q的lower bound，这样扩大估计值和真实值Q的距离，缓解offline RL中存在的distribution shift问题
 - [Off-policy deep reinforcement learning without exploration](http://proceedings.mlr.press/v97/fujimoto19a/fujimoto19a.pdf)  
+
   **BCQ**: constrains the mismatch between the state-action visitation of the policy and the state-action pairs contained in the batch by using a state-conditioned generative model to produce only previously seen actions.
 - [D4RL: Datasets for Deep Data-Driven Reinforcement Learning](https://arxiv.org/pdf/2004.07219.pdf)) [[code]](https://github.com/rail-berkeley/d4rl)  
 - [Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction](https://arxiv.org/pdf/1906.00949.pdf) [[code]](https://github.com/aviralkumar2907/BEAR)  
