@@ -66,6 +66,10 @@ Reinforcement Learning](https://arxiv.org/pdf/2106.04799.pdf)
 
 - [Offline-to-Online Reinforcement Learning via Balanced Replay and Pessimistic Q-Ensemble](https://arxiv.org/pdf/2107.00591.pdf)  
 
-- [Policy Finetuning: Bridging Sample-Efficient Offline and Online Reinforcement Learning](https://arxiv.org/pdf/2106.04895.pdf)
+- [Policy Finetuning: Bridging Sample-Efficient Offline and Online Reinforcement Learning](https://arxiv.org/pdf/2106.04895.pdf)  
 
-- [S4RL: Surprisingly Simple Self-Supervision for Offline Reinforcement Learning in Robotics](https://arxiv.org/pdf/2103.06326.pdf)
+- [S4RL: Surprisingly Simple Self-Supervision for Offline Reinforcement Learning in Robotics](https://arxiv.org/pdf/2103.06326.pdf)  
+- [Mopo: Model-based offline policy optimization](https://proceedings.neurips.cc/paper/2020/file/a322852ce0df73e204b7e67cbbef0d0a-Paper.pdf)  
+- [Combo: Conservative offline model-based policy optimization](https://proceedings.neurips.cc/paper/2021/file/f29a179746902e331572c483c45e5086-Paper.pdf)  
+- [Weighted model estimation for offline model-based
+reinforcement learning](https://proceedings.neurips.cc/paper/2021/file/949694a5059302e7283073b502f094d7-Paper.pdf)  
